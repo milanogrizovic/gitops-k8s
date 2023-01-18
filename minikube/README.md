@@ -13,5 +13,6 @@ Update the service section to point to the NodePort Service that you already cre
 Append 127.0.0.1 hello-world.info to your /etc/hosts file on MacOS (NOTE: Do NOT use the Minikube IP)
 
 Run minikube tunnel ( Keep the window open. After you entered the password there will be no more messages, and the cursor just blinks)
+NOTE: service needs to be of type LoadBalancer for tunnel to work (or NodePort)
 
 Hit the hello-world.info ( or whatever host you configured in the yaml file) in a browser
