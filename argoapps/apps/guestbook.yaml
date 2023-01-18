@@ -11,6 +11,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: guestbook
+    chart: guestbook
     repoURL: https://github.com/milanogrizovic/gitops-k8s
-    targetRevision: HEAD
+    targetRevision: 0.1.0
+    helm:
+      valueFiles:
+        - values.yaml
