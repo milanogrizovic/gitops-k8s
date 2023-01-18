@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: argoapps/
+    path: guestbook
     repoURL: https://github.com/milanogrizovic/gitops-k8s
     targetRevision: HEAD
